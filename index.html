@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter exam</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+</head>
+
+<body>
+
+    <div class="wrap">
+        <header>Currency Converter</header>
+        <form action="#">
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" value="1">
+            </div>
+
+            <div class="drop_list">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select_box">
+                        <img src="https://countryflagsapi.com/png/us" alt="Belgium flag"/>
+                        <select></select>
+                    </div>
+                </div>
+
+                <div class="icon">
+                    <i class="fas fa-exchange-alt"></i>
+                </div>
+
+                <div class="to">
+                    <p>To</p>
+                    <div class="select_box">
+                        <img src="https://countryflagsapi.com/png/kr" alt="Belgium flag"/>
+                        <select></select>
+                    </div>
+                </div>
+            </div>
+            <div class="exchange_rate">Getting exchange rate...</div>
+            <button>Get Exchange Rate</button>
+        </form>
+
+    </div>
+    
+    <script src="js/list.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
